@@ -1,0 +1,29 @@
+local:
+  urls:
+    desktop: "http://localhost:5000/"
+    tablet: "http://localhost:5000/"
+    mobile: "http://localhost:6000/"
+
+development:
+  urls:
+    desktop: "http://dev-flowplayer-tests.herokuapp.com"
+    tablet: "http://dev-flowplayer-tests.herokuapp.com"
+    mobile: "http://m-dev-flowplayer-tests.herokuapp.com"
+
+review:
+  urls:
+    desktop: "http://review-flowplayer-tests.herokuapp.com"
+    tablet: "http://review-flowplayer-tests.herokuapp.com"
+    mobile: "http://m-review-flowplayer-tests.herokuapp.com"
+
+staging:
+  urls:
+    desktop: "http://staging-flowplayer-tests.herokuapp.com"
+    tablet: "http://staging-flowplayer-tests.herokuapp.com"
+    mobile: "http://m-staging-flowplayer-tests.herokuapp.com"
+
+production:
+  urls:
+    desktop: "http://flowplayer-tests.herokuapp.com"
+    tablet: "http://flowplayer-tests.herokuapp.com"
+    mobile: "http://m-flowplayer-tests.herokuapp.com"
