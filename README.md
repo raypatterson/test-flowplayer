@@ -1,5 +1,3 @@
-A Middleman project which can be deployed to Heroku.
+Testing out Flowplayer & AWS CloudFront.
 
-https://github.com/middleman/heroku-ondemand-example
-https://github.com/ddollar/heroku-accounts
 ==============================
