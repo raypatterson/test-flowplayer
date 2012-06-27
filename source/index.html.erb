@@ -2,6 +2,21 @@
 	<title>Flowplayer Tests</title>
 <% end%>
 
-<a href="tests/minimal/">Minimal</a>
-<a href="tests/streaming/">Streaming</a>
-<a href="tests/adaptive/">Adaptive</a>
+<style>
+	#video_player {
+		display: block;
+		width: 960px;
+		height: 540px;
+		margin: 0;
+		text-align: center;
+		background-color: #FFFFFF;
+	}
+</style>
+
+<div id="video_player"></div>
+<button id="play_btn">Play</button>
+<button id="pause_btn">Pause</button>
+<button id="mute_btn">Mute</button>
+<button id="unmute_btn">Unmute</button>
+
+<%= javascript_include_project_tag "app-js" %> 
